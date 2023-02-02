@@ -1,0 +1,51 @@
+.screen-profile__header {
+    display: flex;
+    align-items: center;
+}
+
+.screen-header__text {
+    font-size: 30px;
+    font-weight: 200;
+}
+.screen-header__icons .icon {
+    padding-left: 30px;
+}
+
+.screen-profile__header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+
+.screen-profile__pic {
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(89, 87, 63);
+    border-radius: 25px;
+}
+
+.screen-profile__title {
+    display:inline-block;
+    font-size: 20px;
+}
+.screen-profile__subtitle {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.screen-profile__multi {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.screen-profile__multi-pic {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(89, 87, 63);
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
