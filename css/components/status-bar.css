@@ -1,0 +1,14 @@
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-bar__right {
+    display: flex;
+}
+
+.status-bar__right li {
+    list-style: none;
+    padding-left: 10px;
+}
