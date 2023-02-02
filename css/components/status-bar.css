@@ -1,14 +1,20 @@
 .status-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.status-bar__right {
-    display: flex;
+.status-bar__column:first-child {
+    margin-right: auto;
 }
 
-.status-bar__right li {
-    list-style: none;
-    padding-left: 10px;
+.status-bar__column:last-child {
+    margin-left: auto;
 }
+
+.status-bar__icons {
+    display: flex;
+    padding-left: 15px;
+}
+
+.status-bar__icons:
